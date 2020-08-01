@@ -1,0 +1,145 @@
+@font-face
+{
+    font-family: 'latin_modern_roman10_regular';
+    src: url('lmroman10-regular-webfont.eot');
+    src: url('lmroman10-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lmroman10-regular-webfont.woff2') format('woff2'),
+         url('lmroman10-regular-webfont.woff') format('woff'),
+         url('lmroman10-regular-webfont.ttf') format('truetype'),
+         url('lmroman10-regular-webfont.svg#latin_modern_roman10_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    width: 1200px;
+    margin: auto;
+    max-width: 100%;
+    text-align: justify;
+    border: solid 1px #29B6F6;
+}
+
+header
+{
+    display: flex;
+}
+
+img
+{
+    border-radius:50%;
+    width:160px;
+    height:160px;
+    border: 3px solid rgba(0, 0, 0, 0.2)
+}
+
+.blocgaucheheader, .blocgauche
+{
+    background-color: #29B6F6;
+    width: 25%;
+}
+
+.blocdroiteheader, .blocdroite
+{
+    width: 75%;
+}
+
+.blocgaucheheader, .blocdroiteheader
+{
+    padding-top: 2.5em;
+}
+
+.blocgaucheheader
+{
+    text-align: center;
+}
+
+.aproposdemoi
+{
+    flex-grow: 1;
+}
+
+.iconeloisirs
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.iconeloisirs i
+{
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    border: solid 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #263238;
+}
+
+.assemblagebloc
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.blocgauche, .blocformationecriture
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.blocgauche p
+{
+    padding: 0 2em;
+}
+
+.blocgauche h2
+{
+    text-align: center;
+    background-color: #263238;
+    color: #29B6F6;
+}
+
+.blocformation
+{
+    display: flex;
+}
+
+h1, h2, h3
+{
+    font-family: 'latin_modern_roman10_regular', "Arial Black", Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+p
+{
+    font-family: "Times New Roman", "Arial Black", Arial, Verdana, sans-serif;
+}
+
+.couleur
+{
+    color: #29B6F6;
+}
+
+ul
+{
+    list-style: none;
+}
+
+h1
+{
+    font-size: 2.5em;
+}
+
+h2
+{
+    font-size: 1.3em;
+}
+
+h3
+{
+    font-size: 1.1em;
+}
