@@ -18,7 +18,7 @@ body
     margin: auto;
     max-width: 100%;
     text-align: justify;
-    border: solid 1px #29B6F6;
+    border: solid 1px #263238;
 }
 
 header
@@ -206,6 +206,7 @@ ul
 .blocdroiteecriture
 {
     width: 500px;
+    margin-left: 1em;
 }
 
 h3, h4
@@ -229,7 +230,43 @@ h4
     width: 500px;
 }
 
+.deuxiemerecommandation
+{
+    margin-left: 1.5em;
+}
+
 .recommandations h3
 {
     text-transform: none;
+}
+
+@media screen and (max-width: 800px)
+{
+    header, .assemblagebloc
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blocgaucheheader, .blocdroiteheader, .blocgauche, .blocdroite
+    {
+        width: 100%;
+    }
+
+    .blocgaucheheader
+    {
+        padding: 1em 0em;
+    }
+
+    .blocdroiteheader h1, .blocdroiteheader p
+    {
+        text-align: center;
+        margin: 1.5em 0em;
+    }
+
+    .contact
+    {
+        text-align: center;
+    }
+    
 }
