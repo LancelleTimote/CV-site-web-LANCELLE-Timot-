@@ -60,7 +60,7 @@ h3
     flex-direction: row-reverse;
 }
 
-.couleur, .blocdroite i, .blocgauche h2, .couleursouligne
+.couleur, .blocdroite i, .blocgauche h2
 {
     color: #29B6F6;
 }
@@ -134,24 +134,26 @@ img
     width: 66%;
 }
 
+.blocdroiteheader h1, .blocdroiteheader p
+{
+    margin-top: 2.5em;
+    line-height: 0em;
+}
+
 .blocdroiteheader h1
 {
-    margin-left: 1.5em;
-}
-
-.couleursouligne
-{
-    text-decoration: underline;
-}
-
-.blocdroiteheader
-{
-    line-height: 1em;
+    margin-left: 1.3em;
 }
 
 .blocdroiteheader p
 {
+    margin-left: 2.6em;
     font-weight: bold;
+}
+
+.couleursouligne
+{
+    text-decoration: underline #29B6F6;
 }
 
 .miseenplaceblocdroite
@@ -159,21 +161,15 @@ img
     display: flex;
 }
 
+.placementblocsdroite
+{
+    margin: 0em 3em;
+}
+
 ul
 {
     list-style: none;
     padding: 0;
-}
-
-.miseenplaceblocdroite i
-{
-    padding-left: 0.5em;
-}
-
-.recommandations
-{
-    display: flex;
-    justify-content: space-around;
 }
 
 .formetexteicone
@@ -184,11 +180,11 @@ ul
 
 .formetexteicone i
 {
-    padding-top: 0.6em;
+    margin-top: 0.7em;
     font-size: 1.6em;
 }
 
-.formetexteicone h2
+.blocdroite h2
 {
     margin-left: 1.5em;
 }
@@ -196,9 +192,38 @@ ul
 .miseenplaceblocdroite i
 {
     font-size: 0.7em;
+    margin-top: 2.3em;
 }
 
-.blocdroiteecriture h3
+.blocdroite span
 {
-    line-height: 2em;
+    width: 300px;
+    margin-left: 1em;
+    margin-top: 1.4em;
+}
+
+.blocdroiteecriture
+{
+    width: 500px;
+}
+
+h3, h4
+{
+    margin-bottom: 0;
+}
+
+h4
+{
+   font-weight: normal; 
+}
+
+.recommandations
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.recommandations li
+{
+    width: 500px;
 }
