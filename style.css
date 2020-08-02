@@ -308,10 +308,14 @@ h4
         text-align: center;
     }
 
+    .placementblocsdroite, .blocdroiteecriture
+    {
+        width: auto;
+    }
+
     .placementblocsdroite
     {
-        margin: 0;
-        width: auto;
+        margin: 0em 0.5em;
     }
 
 }
