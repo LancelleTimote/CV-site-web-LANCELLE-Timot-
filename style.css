@@ -294,5 +294,24 @@ h4
     {
         margin: 0;
     }
-    
+}
+
+@media screen and (max-width: 425px)
+{
+    .blocdroiteheader h1, .blocdroiteheader p
+    {
+        line-height: 1em;
+    }
+
+    .blocdroiteecriture, .formetexteicone
+    {
+        text-align: center;
+    }
+
+    .placementblocsdroite
+    {
+        margin: 0;
+        width: auto;
+    }
+
 }
