@@ -2,12 +2,12 @@
 @font-face
 {
     font-family: 'latin_modern_roman10_regular';
-    src: url('lmroman10-regular-webfont.eot');
-    src: url('lmroman10-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('lmroman10-regular-webfont.woff2') format('woff2'),
-         url('lmroman10-regular-webfont.woff') format('woff'),
-         url('lmroman10-regular-webfont.ttf') format('truetype'),
-         url('lmroman10-regular-webfont.svg#latin_modern_roman10_regular') format('svg');
+    src: url('fonts/lmroman10-regular-webfont.eot');
+    src: url('fonts/lmroman10-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lmroman10-regular-webfont.woff2') format('woff2'),
+         url('fonts/lmroman10-regular-webfont.woff') format('woff'),
+         url('fonts/lmroman10-regular-webfont.ttf') format('truetype'),
+         url('fonts/lmroman10-regular-webfont.svg#latin_modern_roman10_regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -37,17 +37,12 @@ p, span
     font-family: "Times New Roman", "Arial Black", Arial, Verdana, sans-serif;
 }
 
-ul
-{
-    list-style: none;
-}
-
 h1
 {
     font-size: 2.5em;
 }
 
-h2
+h2, .blocdroiteheader p
 {
     font-size: 1.3em;
 }
@@ -70,7 +65,7 @@ h3
     flex-direction: row-reverse;
 }
 
-.couleur, .blocdroite i, .blocgauche h2
+.couleur, .blocdroite i, .blocgauche h2, .couleursouligne
 {
     color: #29B6F6;
 }
@@ -130,7 +125,7 @@ img
     border-radius: 50%;
     width: 1.5em;
     height: 1.5em;
-    border: solid 1px;
+    border: solid 2px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -142,12 +137,38 @@ img
 .blocdroiteheader, .blocdroite
 {
     width: 75%;
-    padding: 2em 3em;
+}
+
+.couleursouligne
+{
+    text-decoration: underline;
+}
+
+.blocdroiteheader
+{
+    line-height: 1em;
+    padding: 3em;
+}
+
+.blocdroiteheader p
+{
+    font-weight: bold;
+}
+
+.blocdroite
+{
+    padding: 0em 3em;
 }
 
 .miseenplaceblocdroite
 {
     display: flex;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
 }
 
 .formetexteicone
@@ -158,5 +179,21 @@ img
 
 .formetexteicone i
 {
-    padding-top: 1.2em;
+    padding-top: 0.6em;
+    font-size: 1.6em;
+}
+
+.formetexteicone h2
+{
+    margin-left: 1.5em;
+}
+
+.miseenplaceblocdroite i
+{
+    font-size: 0.7em;
+}
+
+.blocdroiteecriture h3
+{
+    line-height: 2em;
 }
