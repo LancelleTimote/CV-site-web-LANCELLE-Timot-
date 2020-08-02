@@ -1,3 +1,4 @@
+/*ensemble page*/
 @font-face
 {
     font-family: 'latin_modern_roman10_regular';
@@ -25,6 +26,68 @@ header
     display: flex;
 }
 
+h1, h2, h3
+{
+    font-family: 'latin_modern_roman10_regular', "Arial Black", Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+p, span
+{
+    font-family: "Times New Roman", "Arial Black", Arial, Verdana, sans-serif;
+}
+
+ul
+{
+    list-style: none;
+}
+
+h1
+{
+    font-size: 2.5em;
+}
+
+h2
+{
+    font-size: 1.3em;
+}
+
+h3
+{
+    font-size: 1.1em;
+}
+
+
+/*bloc gauche + bloc droite*/
+.blocgaucheheader, .blocdroiteheader
+{
+    padding-top: 2.5em;
+}
+
+.assemblagebloc
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.couleur, .blocdroite i, .blocgauche h2
+{
+    color: #29B6F6;
+}
+
+.blocgauche, .blocdroiteecriture
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/*bloc gauche*/
+.blocgaucheheader, .blocgauche
+{
+    background-color: #29B6F6;
+    width: 25%;
+}
+
 img
 {
     border-radius:50%;
@@ -33,25 +96,20 @@ img
     border: 3px solid rgba(0, 0, 0, 0.2)
 }
 
-.blocgaucheheader, .blocgauche
-{
-    background-color: #29B6F6;
-    width: 25%;
-}
-
-.blocdroiteheader, .blocdroite
-{
-    width: 75%;
-}
-
-.blocgaucheheader, .blocdroiteheader
-{
-    padding-top: 2.5em;
-}
-
 .blocgaucheheader
 {
     text-align: center;
+}
+
+.blocgauche h2
+{
+    text-align: center;
+    background-color: #263238;
+}
+
+.blocgauche p
+{
+    padding: 0 2em;
 }
 
 .aproposdemoi
@@ -79,67 +137,26 @@ img
     color: #263238;
 }
 
-.assemblagebloc
+
+/*bloc droite*/
+.blocdroiteheader, .blocdroite
 {
-    display: flex;
-    flex-direction: row-reverse;
+    width: 75%;
+    padding: 2em 3em;
 }
 
-.blocgauche, .blocformationecriture
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.blocgauche p
-{
-    padding: 0 2em;
-}
-
-.blocgauche h2
-{
-    text-align: center;
-    background-color: #263238;
-    color: #29B6F6;
-}
-
-.blocformation
+.miseenplaceblocdroite
 {
     display: flex;
 }
 
-h1, h2, h3
+.formetexteicone
 {
-    font-family: 'latin_modern_roman10_regular', "Arial Black", Arial, Verdana, sans-serif;
-    text-transform: uppercase;
+    display: flex;
+    border-bottom: solid 1px #29B6F6;
 }
 
-p
+.formetexteicone i
 {
-    font-family: "Times New Roman", "Arial Black", Arial, Verdana, sans-serif;
-}
-
-.couleur
-{
-    color: #29B6F6;
-}
-
-ul
-{
-    list-style: none;
-}
-
-h1
-{
-    font-size: 2.5em;
-}
-
-h2
-{
-    font-size: 1.3em;
-}
-
-h3
-{
-    font-size: 1.1em;
+    padding-top: 1.2em;
 }
