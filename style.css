@@ -54,11 +54,6 @@ h3
 
 
 /*bloc gauche + bloc droite*/
-.blocgaucheheader, .blocdroiteheader
-{
-    padding-top: 2.5em;
-}
-
 .assemblagebloc
 {
     display: flex;
@@ -80,7 +75,12 @@ h3
 .blocgaucheheader, .blocgauche
 {
     background-color: #29B6F6;
-    width: 25%;
+    width: 34%;
+}
+.blocgaucheheader
+{
+    padding-top: 2.5em;
+    text-align: center;
 }
 
 img
@@ -89,11 +89,6 @@ img
     width:160px;
     height:160px;
     border: 3px solid rgba(0, 0, 0, 0.2)
-}
-
-.blocgaucheheader
-{
-    text-align: center;
 }
 
 .blocgauche h2
@@ -136,7 +131,12 @@ img
 /*bloc droite*/
 .blocdroiteheader, .blocdroite
 {
-    width: 75%;
+    width: 66%;
+}
+
+.blocdroiteheader h1
+{
+    margin-left: 1.5em;
 }
 
 .couleursouligne
@@ -147,17 +147,11 @@ img
 .blocdroiteheader
 {
     line-height: 1em;
-    padding: 3em;
 }
 
 .blocdroiteheader p
 {
     font-weight: bold;
-}
-
-.blocdroite
-{
-    padding: 0em 3em;
 }
 
 .miseenplaceblocdroite
@@ -169,6 +163,17 @@ ul
 {
     list-style: none;
     padding: 0;
+}
+
+.miseenplaceblocdroite i
+{
+    padding-left: 0.5em;
+}
+
+.recommandations
+{
+    display: flex;
+    justify-content: space-around;
 }
 
 .formetexteicone
